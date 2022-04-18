@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   FaBars,
   FaTimes,
-  FaGithub,
   FaLinkedin,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -15,9 +14,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#90BEDE] text-[#233dff]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#90BEDE] text-black'>
       <div>
-        <img src={Logo} alt='Logo' style={{ width: '50px' }} />
+        <img src={Logo} alt='Logo' style={{ width: '250px' }} />
       </div>
 
       {/* menu */}
@@ -102,14 +101,6 @@ const Navbar = () => {
               href='/'
             >
               Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Github <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
