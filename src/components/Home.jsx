@@ -11,7 +11,7 @@ const Home = () => {
           David Rice
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#0a192f]'>
-          This is my company.
+          This is DataNovae.
         </h2>
         <p className='text-[#0a192f] py-4 max-w-[700px]'>
           I am a person specializing in this. Currently, I’m focused on

@@ -9,6 +9,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 
+
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -25,6 +27,9 @@ const Navbar = () => {
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
+        </li>
+        <li>
+          <Link to='/team'>Team</Link>
         </li>
         <li>
           <Link to='about' smooth={true} duration={500}>
