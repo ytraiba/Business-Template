@@ -16,6 +16,7 @@ export function App() {
       <Skills />
       <Article />
       <Contact />
+      <People />
     </div>
   );
 }
