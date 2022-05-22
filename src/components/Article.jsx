@@ -5,13 +5,13 @@ import Article3 from '../assets/Article3.jpeg';
 
 const Article = () => {
   return (
-    <div name='Article' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='Article' className='w-full md:h-screen text-white bg-gray-600'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#b625d9]'>
+          <p className='text-4xl font-bold inline border-b-4 text-white border-[#b625d9]'>
             Articles
           </p>
-          <p className='py-6'>Here is what we think YOU should be reading</p>
+          <p className='py-6'>Here are some articles we think are important...</p>
         </div>
 
 {/* Container */}
@@ -29,7 +29,7 @@ const Article = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-500 text-white font-bold text-lg'>
                     Article Link
                   </button>
                 </a>
@@ -48,7 +48,7 @@ const Article = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-500 text-white font-bold text-lg'>
                     Article Link
                   </button>
                 </a>
@@ -67,7 +67,7 @@ const Article = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-500 text-white font-bold text-lg'>
                     Article Link
                   </button>
                 </a>
