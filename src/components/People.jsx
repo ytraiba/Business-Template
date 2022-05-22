@@ -17,7 +17,7 @@ const People = () => {
     <div className='bg-transparent container flex justify-center rounded-lg overflow-hidden'>
         <div className='text-xl mb-2'>
           <p className='text-white text-center flex w-full flex-col space-y-2 items-center'>
-            <img className='inline rounded-sm shadow-lg shadow-[#040c16] object-contain w-[185px] max-h-48 sm:max-h-0 sm:w-auto' src={props.img} alt="img" />
+            <img className='inline rounded-sm shadow-lg shadow-[#040c16] object-contain w-[185px] max-h-48 sm:max-h-60 sm:w-auto' src={props.img} alt="img" />
             <span className='text-xl sm:text-3xl border-b-2 border-[#b625d9] pt-2'>{props.name}</span>
             <span className='text-sm'>{props.alt}</span>
             <span className='flex items-center'>
