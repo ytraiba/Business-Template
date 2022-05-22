@@ -42,11 +42,12 @@ const People = () => {
       </div>
 
       <div className='grid grid-cols-2 sm:grid-cols-3 justify-center justify-self-auto items-center pt-12 sm:pl-32 sm:pr-32'>
-      <GridEntry name="Natasha Treunen" asset="Email" alt="Public Relations" img={NatashaPhoto}/>
-      <GridEntry name="David Rice" asset="Email" alt="Founder and Leader" img={DavidPhoto}/>
-      <GridEntry name="Cliff Rotenburg" asset="Email" alt="Business Strategist" img={CliffPhoto}/>
+
       <GridEntry name="Yasin Traiba" asset="yasintraiba@gmail.com" alt="Software Engineer" img={YasinPhoto}/>
+      <GridEntry name="David Rice" asset="Email" alt="Founder and Leader" img={DavidPhoto}/>
       <GridEntry name="Javier Cerdas" asset="Email" alt="Lead Software Engineer" img={JaviPhoto}/>
+      <GridEntry name="Cliff Rotenburg" asset="Email" alt="Business Strategist" img={CliffPhoto}/>
+      <GridEntry name="Natasha Treunen" asset="Email" alt="Public Relations" img={NatashaPhoto}/>
       <GridEntry name="Terence McNamee" asset="Email" alt="International Expert" img={TerencePhoto}/>
       </div>
       

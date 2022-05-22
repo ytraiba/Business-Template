@@ -16,11 +16,15 @@ const About = () => {
             <div className='sm:text-right text-4xl font-bold'>
               <p>Hi. This is DataNovae. Please take a look around.</p>
             </div>
-            <div>
-              <p>I am passionate about building excellent _ that improves
-              the lives of those around me. I specialize in serving clients 
-              ranging from individuals and small-businesses all the
-              way to large enterprise corporations?</p>  
+            <div className='text-xl'>
+              <p>Every business shares a common need for timely, accurate, and relevant information in order to
+              make better business decisions. Throughout under-developed countries in Africa, firms suffer from 
+              a fundamental lack of useful economic information. 
+              </p>  
+              <p className='pt-4'>
+              DataNovae is focusing on collecting real-time market data directly from stakeholders at the local level in order to 
+              aggregate anonymized information to a common platform.
+              </p>
             </div>
           </div>
       </div>
