@@ -18,7 +18,7 @@ const People = () => {
       <div className='px-6 py-4'>
         <div className='text-xl mb-2'>
           <p className='text-white text-center flex flex-col space-y-2 items-center'>
-            <img className='inline rounded-md shadow-lg shadow-[#040c16] object-contain w-[185px] sm:w-auto h-fit max-h-60' src={props.img} alt="img" />
+            <img className='inline rounded-md shadow-lg shadow-[#040c16] object-contain w-[185px] h-[185px] sm:h-auto sm:w-auto' src={props.img} alt="img" />
             <span className='text-xl sm:text-3xl border-b-2 border-[#b625d9] pt-2'>{props.name}</span>
             <span className='text-sm'>{props.alt}</span>
             <span className='flex items-center'>
