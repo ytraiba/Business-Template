@@ -1,4 +1,4 @@
-# Buisness Website
+## Buisness Website
 
 The goal of this project was to create a buiness website template that can be easily updated by its owner. 
 
