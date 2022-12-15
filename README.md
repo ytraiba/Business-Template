@@ -19,4 +19,4 @@ While working on this project I learned how to:
 
 [Click here to visit the buisness website](https://david-app-eta.vercel.app/).
 
-<img src="https://github.com/ytraiba/david-app/blob/master/thumbnail2.png" alt="drawing" style="height:275px;"/>  <img src="https://github.com/ytraiba/david-app/blob/master/thumbnail.png" alt="drawing" style="height:275px;"/>
+<img src="https://github.com/ytraiba/david-app/blob/master/src/assets/thumbnail2.png" alt="drawing" style="height:275px;"/>  <img src="https://github.com/ytraiba/david-app/blob/master/src/assets/thumbnail.png" alt="drawing" style="height:275px;"/>
