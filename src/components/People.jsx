@@ -2,10 +2,6 @@ import React from 'react'
 import {
   FaLinkedin,
 } from 'react-icons/fa';
-
-// import YasinPhoto from '../assets/YasinPhoto.jpeg';
-// import JaviPhoto from '../assets/JaviPhoto.jpeg';
-// import TerencePhoto from '../assets/Terrance.jpeg';
 import NatashaPhoto from '../assets/NatashaPhoto.jpeg';
 import CliffPhoto from '../assets/CliffPhoto.jpeg';
 import DavidPhoto from '../assets/DavidPhoto.jpeg';
@@ -41,12 +37,9 @@ const People = () => {
       </div>
 
       <div className='grid grid-cols-2 sm:grid-cols-3 justify-center justify-self-auto items-center pt-12 sm:pl-32 sm:pr-32'>
-      {/* <GridEntry name="Yasin Traiba" asset="yasintraiba@gmail.com" alt="Software Engineer" img={YasinPhoto}/> */}
       <GridEntry name="David Rice" asset="david.rice@datanovae.com" alt="Founder and Leader" img={DavidPhoto}/>
-      {/* <GridEntry name="Javier Cerdas" asset="javiercerdas@gmail.com" alt="Lead Software Engineer" img={JaviPhoto}/> */}
       <GridEntry name="Cliff Rotenburg" asset="cliff.rotenberg@gmail.com" alt="Business Strategist" img={CliffPhoto}/>
       <GridEntry name="Natasha Treunen" asset="nmt303@nyu.edu" alt="Public Relations" img={NatashaPhoto}/>
-      {/* <GridEntry name="Terence McNamee" asset="mcnameetj@gmail.com" alt="International Expert" img={TerencePhoto}/> */}
       </div>
       
     </div>
