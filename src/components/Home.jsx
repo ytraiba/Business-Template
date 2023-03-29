@@ -9,7 +9,7 @@ const Home = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-[#b625d9] text-3xl sm:text-4xl pb-2'>Welcome!</p>
         <h2 className='text-4xl sm:text-7xl font-bold text-black'>
-          This is DataNovae.
+          This is Our Company.
         </h2>
         <p className='text-black sm:text-xl py-4 max-w-[700px]'>
           We are specializing in providing relevant economic information and financial tools 

@@ -37,9 +37,9 @@ const People = () => {
       </div>
 
       <div className='grid grid-cols-2 sm:grid-cols-3 justify-center justify-self-auto items-center pt-12 sm:pl-32 sm:pr-32'>
-      <GridEntry name="David Rice" asset="david.rice@datanovae.com" alt="Founder and Leader" img={DavidPhoto}/>
-      <GridEntry name="Cliff Rotenburg" asset="cliff.rotenberg@gmail.com" alt="Business Strategist" img={CliffPhoto}/>
-      <GridEntry name="Natasha Treunen" asset="nmt303@nyu.edu" alt="Public Relations" img={NatashaPhoto}/>
+      <GridEntry name="David" asset="david.rice@datanovae.com" alt="Founder and Leader" img={DavidPhoto}/>
+      <GridEntry name="Cliff" asset="cliff.rotenberg@gmail.com" alt="Business Strategist" img={CliffPhoto}/>
+      <GridEntry name="Natasha" asset="nmt303@nyu.edu" alt="Public Relations" img={NatashaPhoto}/>
       </div>
       
     </div>

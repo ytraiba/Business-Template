@@ -14,7 +14,7 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. This is DataNovae. Please take a look around.</p>
+              <p>Hi. This is our company. Please take a look around.</p>
             </div>
             <div className='text-xl'>
               <p>Every business shares a common need for timely, accurate, and relevant information in order to
@@ -22,7 +22,7 @@ const About = () => {
               a fundamental lack of useful economic information. 
               </p>  
               <p className='pt-4'>
-              DataNovae is focusing on collecting real-time market data directly from stakeholders at the local level in order to 
+              Our company is focusing on collecting real-time market data directly from stakeholders at the local level in order to 
               aggregate anonymized information to a common platform.
               </p>
             </div>

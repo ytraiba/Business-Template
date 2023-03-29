@@ -49,7 +49,7 @@ const Navbar = () => {
         </li>
         <li>
           <a className='border-b-2 border-[#b625d9] hover:border-yellow-300' href="https://the-african-block.vercel.app/">
-          The African Block
+          The Big Block
           </a>
         </li>
       </ul>
