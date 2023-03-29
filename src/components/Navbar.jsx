@@ -48,7 +48,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <a className='border-b-2 border-[#b625d9] hover:border-yellow-300' href="https://the-african-block.vercel.app/">
+          <a className='border-b-2 border-[#b625d9] hover:border-yellow-300' href="https://podcast-template-beta.vercel.app/">
           The Big Block
           </a>
         </li>
@@ -98,8 +98,8 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <a className='border-b-2 border-[#b625d9] hover:border-yellow-300' href="https://the-african-block.vercel.app/">
-            The African Block
+          <a className='border-b-2 border-[#b625d9] hover:border-yellow-300' href="https://podcast-template-beta.vercel.app/">
+            The Big Block
           </a>
         </li>
         
